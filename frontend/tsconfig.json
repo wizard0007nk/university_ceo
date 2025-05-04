@@ -8,7 +8,10 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true
+    "compilerOptions": {
+    "types": ["vite/client"]
   },
   "include": ["."],
+  "include": [".", "vite-env.d.ts"]
   "exclude": ["node_modules"]
 }
